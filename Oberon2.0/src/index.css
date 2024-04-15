@@ -2,9 +2,8 @@
   --primario: #ff7c17;
   --secondary: #ff6f00;
   --tertiary: #d05a00;
-  --nwhite1:#FF9543
---nwhite2:#FFAE70
-
+  --nwhite1: #ff9543;
+  --nwhite2: #ffae70;
   --blanco: #fff;
   --negro: #000000;
   --fuentePrincipal: "Poppins", sans-serif;
@@ -45,8 +44,8 @@ img {
   max-width: 100%;
   display: block;
 }
-.contenedor {
-  max-width: 120rem;
+.container {
+  max-width: 140rem;
   margin: 0 auto;
   width: 90%;
 }
