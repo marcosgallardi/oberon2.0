@@ -1,0 +1,27 @@
+.navbarMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding-top: 2rem;
+}
+
+.logoMain {
+  width: 10rem;
+  height: auto;
+}
+
+.navMain  a {
+  padding-left: 4rem;
+  font-size: 1.9rem;
+  font-weight: 500;
+  transition: font-size 150ms text-shadow 150ms;
+  color: var(--primario);
+}
+
+.navMain  a:hover {
+  padding-left: 4rem;
+  font-size: 1.99rem;
+  text-shadow: 0 5px 5px rgb(255, 166, 0);
+  color: var(--primario);
+}

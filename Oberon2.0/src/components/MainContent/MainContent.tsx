@@ -1,20 +1,17 @@
-import logoMain from "../../assets/logo-main.png";
+import { Navbar } from "../Navbar/Navbar";
+import { SlideSwipper } from "../SlideSwipper/SlideSwipper";
 import "./MainContent.css";
+
 
 export const MainContent = () => {
   return (
-    <main className="mainContent">
+    <div className="mainContent">
       <div className="container">
-        <div className="navbar-main">
-          <img src={logoMain} alt="logo-oberon" className="logo-main" />
-          <nav className="nav-main">
-            <a href="">Inicio</a>
-            <a href="">Nosotros</a>
-            <a href="">Servicios</a>
-            <a href="">Contactanos</a>
-          </nav>
+        <Navbar />
+        <div className="call-actions">
+        <SlideSwipper/>
         </div>
       </div>
-    </main>
+    </div>
   );
 };

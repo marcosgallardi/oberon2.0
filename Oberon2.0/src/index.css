@@ -17,6 +17,7 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
 body {
   font-family: var(--fuentePrincipal);
   font-size: 1.6rem;
@@ -48,4 +49,10 @@ img {
   max-width: 140rem;
   margin: 0 auto;
   width: 90%;
+}
+
+@media (min-width: 1920px) {
+  .container {
+    max-width: 160rem;
+  }
 }
